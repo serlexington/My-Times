@@ -16,8 +16,26 @@ header{
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-
+}
+.logo img{
+  margin-right: 12px;
 }
 .logo span{
   color: MediumAquamarine;
+}
+.header nav{
+  padding-right: 40px;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+body{
+  color: black;
+}
+a{
+  color: black;
+}
+div{
+  border: 1px solid black;
 }
