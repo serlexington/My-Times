@@ -38,7 +38,7 @@ a{
   color: black;
 }
 div{
-  border: 1px solid black;
+  display: block;
 }
 .content{
   display: flex;
@@ -52,11 +52,95 @@ div{
   margin-right: 32px;
 }
 .column .large{
+  display: flex;
+  flex-direction: column;
   width: 360px;
 }
 .column .medium{
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 .column .small{
+  display: flex;
+  flex-direction: column;
   width: 240px;
+}
+.lead-story .image-content{
+ background-image: url(./images/img-story-main.png);
+ font-family: Georgia;
+ margin-top: 0px;
+ font-weight: bold;
+ font-size: 40px;
+ text-align: left;
+}
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.image-content{
+   display: flex;
+   flex-direction: column;
+   margin: 15px 30px auto auto;
+   height: 300px;
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+}
+.fall-cancelled{
+  background-image: url(./images/img-story-2.png);
+}
+.pop-culture{
+  background-image: url(./images/img-story-3.png);
+}
+.cat-ceo{
+  background-image: url(./images/img-story-1.png);
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 17px;
+}
+.news-bites h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bite{
+  display:block;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  padding: 11px 20px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+}
+footer .times-footer{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 3px solid white;
+  padding-right: 25px;
+}
+.footer-nav span{
+  padding: 20px 10px;
+  margin-left: 20px;
 }
